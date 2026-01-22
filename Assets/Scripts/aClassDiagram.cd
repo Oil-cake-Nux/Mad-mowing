@@ -1,0 +1,1179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Vampire.CharacterCamera" Collapsed="true">
+    <Position X="61.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\CharacterCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CharacterSetGenerator" Collapsed="true">
+    <Position X="52.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAKAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\CharacterSetGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CoinDisplay" Collapsed="true">
+    <Position X="59.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\CoinDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CoroutineQueue" Collapsed="true">
+    <Position X="63" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAgkAgAgAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\CoroutineQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.DescriptionUtils" Collapsed="true">
+    <Position X="54.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\DescriptionUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.EasingUtils" Collapsed="true">
+    <Position X="56" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAEAEAAAABBAAAEAAAAAAAAIAAAAEAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\EasingUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.EnumDataContainer&lt;TEnum, TValue&gt;" Collapsed="true">
+    <Position X="59.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAAAAAAAAACAAAAABAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\EnumDataContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.EnumDataContainer&lt;TEnum, TValue1, TValue2&gt;" Collapsed="true">
+    <Position X="61.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAACAIAAABAAAAAAAAAAAAAAAIAABA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\EnumDataContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.EscapeToQuit" Collapsed="true">
+    <Position X="63" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\EscapeToQuit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.FastList&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="52.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABCAAAAABAQAAAAAAQAEAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\FastList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Vampire.GoToTransform" Collapsed="true">
+    <Position X="56" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\GoToTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.InfiniteBackground" Collapsed="true">
+    <Position X="57.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAEAAAAAAAAAABAAEAAAAAIAIAASAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\InfiniteBackground.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Loot&lt;T&gt;" Collapsed="true">
+    <Position X="56" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\Loot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.LootTable&lt;T&gt;" Collapsed="true">
+    <Position X="57.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAACAAAAAAACAAAAAAAAQAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\LootTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Rotator" Collapsed="true">
+    <Position X="59.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\Rotator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.SafeArea" Collapsed="true">
+    <Position X="61.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\SafeArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ScaleParticlesToScreen" Collapsed="true">
+    <Position X="63" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\ScaleParticlesToScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.SpriteAnimator" Collapsed="true">
+    <Position X="54.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQRQAAAACEAAACgAAAAEAAQEAACBQAAAAAACAAAAIEA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\SpriteAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableValue&lt;T&gt;" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAQAABEAAAAAwAACAAAEBACAAAAAgAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Vampire.UpgradeableFloat" Collapsed="true">
+    <Position X="16.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableDamage" Collapsed="true">
+    <Position X="22.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableDamageRate" Collapsed="true">
+    <Position X="27" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableWeaponCooldown" Collapsed="true">
+    <Position X="29.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableRecoveryCooldown" Collapsed="true">
+    <Position X="31.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableDuration" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableAOE" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableKnockback" Collapsed="true">
+    <Position X="6.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableProjectileSpeed" Collapsed="true">
+    <Position X="9" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableRecoveryChance" Collapsed="true">
+    <Position X="11.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableBleedDamage" Collapsed="true">
+    <Position X="13.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableBleedRate" Collapsed="true">
+    <Position X="15.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableBleedDuration" Collapsed="true">
+    <Position X="18" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableMovementSpeed" Collapsed="true">
+    <Position X="20.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableRotationSpeed" Collapsed="true">
+    <Position X="24.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableInt" Collapsed="true">
+    <Position X="36" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableProjectileCount" Collapsed="true">
+    <Position X="36" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAoAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableRecovery" Collapsed="true">
+    <Position X="38.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UpgradeableArmor" Collapsed="true">
+    <Position X="33.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ZPositioner" Collapsed="true">
+    <Position X="63" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAEAAAIAACACAAAAABAAASAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\ZPositioner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Boomerang" Collapsed="true">
+    <Position X="57.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAQBACAAgiAAEQAAAAAAAAAIIAIAAARBiAAEEAEg=</HashCode>
+      <FileName>Assets\Scripts\Boomerangs\Boomerang.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Ability" Collapsed="true">
+    <Position X="26.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAgAgJAEAAAAgAAQAEAEEAJABAFACYAAAACA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\Ability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.AbilityManager" Collapsed="true">
+    <Position X="54.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgUAAQCABCAIAABJCkDAIAQEEMAAIACEAACAACBIUg=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\AbilityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.AOEUpgradeAbility">
+    <Position X="14.75" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\AOEUpgradeAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ArmorUpgradeAbility" Collapsed="true">
+    <Position X="29.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\ArmorUpgradeAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.BazookaGunAbility" Collapsed="true">
+    <Position X="5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AATAgAgAAAACAAAgAAAAAAAkAAAAEAAABAAAAAAAACA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\BazookaGunAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Book" Collapsed="true">
+    <Position X="56" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAEAAAAACCABCAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.BookAbility" Collapsed="true">
+    <Position X="38.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAASACAAgggAAACCgAAAAgAAEAQAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\BookAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.BoomerangAbility" Collapsed="true">
+    <Position X="41" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAggAAAYAAAAAAAAKBEAQAACAAAAABGAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\BoomerangAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CooldownUpgradeAbility">
+    <Position X="22" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\CooldownUpgradeAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.DaggerAbility" Collapsed="true">
+    <Position X="50" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAEAECAAAAAAAAAAAACAAAACA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\DaggerAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.DamageUpgradeAbility">
+    <Position X="9.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\DamageUpgradeAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.FixedDirectionStabAbility" Collapsed="true">
+    <Position X="47.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\FixedDirectionStabAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.FloatUpgradeAbility&lt;T&gt;" Collapsed="true">
+    <Position X="15.25" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAgIEAAAAAgAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\FloatUpgradeAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.GarlicAbility" Collapsed="true">
+    <Position X="23" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIACCCAAggCAAAAAgAAAAAEAGAAAACAACAABAAEA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\GarlicAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.GravityWellAbility" Collapsed="true">
+    <Position X="34.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\GravityWellAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.GrenadeThrowableAbility" Collapsed="true">
+    <Position X="36.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\GrenadeThrowableAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.GunAbility" Collapsed="true">
+    <Position X="6.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAIIAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\GunAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.IceSkatesAbility">
+    <Position X="17.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\IceSkatesAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.IntUpgradeAbility&lt;T&gt;" Collapsed="true">
+    <Position X="28.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAgIEAAAAAgAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\IntUpgradeAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.KnockbackUpgradeAbility">
+    <Position X="19.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\KnockbackUpgradeAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.LifestealAbility" Collapsed="true">
+    <Position X="43.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAEEAAAAAAAAAAAIABA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\LifestealAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.MachineGunAbility" Collapsed="true">
+    <Position X="7.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AATIAAAAAAAAAAAAAAAAIAAgAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\MachineGunAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.MeleeAbility" Collapsed="true">
+    <Position X="47.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAggQAAAAAAAAAAAKIEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\MeleeAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.MolotovAbility" Collapsed="true">
+    <Position X="32" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\MolotovAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ProjectileAbility" Collapsed="true">
+    <Position X="5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAggAAgAABAAAAAAKAEAQAACAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\ProjectileAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ProjectileCountUpgradeAbility" Collapsed="true">
+    <Position X="26.5" Y="10.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\ProjectileCountUpgradeAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ProjectileSpeedAbilityUpgrade">
+    <Position X="11.5" Y="10.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\ProjectileSpeedAbilityUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.RecoveryAbility" Collapsed="true">
+    <Position X="25.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAgAAAAAACAEAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\RecoveryAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ShurikenAbility" Collapsed="true">
+    <Position X="2.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAggAAAAAAAAAAAIAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\ShurikenAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.SlashAbility" Collapsed="true">
+    <Position X="45.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACBAAIAEgAAAAgAAAAAIkEABAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\SlashAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.StabAbility" Collapsed="true">
+    <Position X="49" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAgEAAAAIAEAIACAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\StabAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ThrowableAbility" Collapsed="true">
+    <Position X="34.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAIAAAAAAggAEAIAAAAAAABKAEAAAACAAAQABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\ThrowableAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Character" Collapsed="true">
+    <Position X="1" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQQASAAMpCBhiAsCABMEKTgBgAWECCIhRgCgBIcCEg=</HashCode>
+      <FileName>Assets\Scripts\Character\Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Vampire.MainCharacter" Collapsed="true">
+    <Position X="1" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\MainCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.TouchJoystick" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAQEIAAgAEgAAAAIhgAAAAAAAACAiEAAICEg=</HashCode>
+      <FileName>Assets\Scripts\Character\TouchJoystick.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Vampire.Bomb">
+    <Position X="27.25" Y="16" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Collectables\Bomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Coin" Collapsed="true">
+    <Position X="16" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAgAAACIAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Collectables\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CoinPouch" Collapsed="true">
+    <Position X="61.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Collectables\CoinPouch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Collectable" Collapsed="true">
+    <Position X="21.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEQgAACApAAkAAAAIAAYAAAAAEAIAAABECAAAAAEw=</HashCode>
+      <FileName>Assets\Scripts\Collectables\Collectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ExpGem" Collapsed="true">
+    <Position X="18.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIBAAACAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Collectables\ExpGem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Health" Collapsed="true">
+    <Position X="20.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Collectables\Health.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Magnet" Collapsed="true">
+    <Position X="22.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Collectables\Magnet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.RedPotion">
+    <Position X="25" Y="16" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAYAAAA=</HashCode>
+      <FileName>Assets\Scripts\Collectables\RedPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.AbilityCard" Collapsed="true">
+    <Position X="52.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAACRAAAAAAAIIAAAAAAAAAAIAIAAJiACIBCgI=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\AbilityCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Chest" Collapsed="true">
+    <Position X="54.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAICAAAAAAAABAAAAAAJAAABAigiAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Chest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.GameTimer" Collapsed="true">
+    <Position X="54.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\GameTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.IDamageable" Collapsed="true">
+    <Position X="6.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\IDamageable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Inventory" Collapsed="true">
+    <Position X="59.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAABAAAAhAAAAAAAAAACAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Inventory\Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.InventorySlot" Collapsed="true">
+    <Position X="61.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAQIgAAAAAAAAQgAAAAAlAAAAAAIAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Inventory\InventorySlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.PointBar" Collapsed="true">
+    <Position X="57.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAACgAQAUAAAIAAQAAEgAAAAAAAAAAFAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\PointBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.BoomerangPool" Collapsed="true">
+    <Position X="6" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAACAAAAAAQAAAAAAAAgCABAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Pools\BoomerangPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ChestPool" Collapsed="true">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAACAAAAAAQAAAAAAAAgCABAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Pools\ChestPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CoinPool" Collapsed="true">
+    <Position X="10.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAACAAAAAAQAAAAAAAAgCABAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Pools\CoinPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.DamageTextPool" Collapsed="true">
+    <Position X="12.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAACAAAAAAQAAAAAAAAgCABAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Pools\DamageTextPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ExpGemPool" Collapsed="true">
+    <Position X="15" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAACAAAAAAQAAAAAAAAgCABAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Pools\ExpGemPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ExplosiveProjectilePool" Collapsed="true">
+    <Position X="17.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAACAAAAAAQAAAAAAAAgCABAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Pools\ExplosiveProjectilePool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.GravityProjectilePool" Collapsed="true">
+    <Position X="19.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAACAAAAAAQAAAAAAAAgCABAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Pools\GravityProjectilePool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.MonsterPool" Collapsed="true">
+    <Position X="21.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAACAAAAAAQAAAAAAAAgCABAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Pools\MonsterPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Pool" Collapsed="true">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAABIAAAACAIAAABACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Pools\Pool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ProjectilePool" Collapsed="true">
+    <Position X="1.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAACAAAAAAQAAAAAAAAgCABAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Pools\ProjectilePool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ThrowablePool" Collapsed="true">
+    <Position X="3.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAACAAAAAAQAAAAAAAAgCABAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\Pools\ThrowablePool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.StatsManager" Collapsed="true">
+    <Position X="57.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAACEgQAABAAAAAAAAAAAgAAAIAACAJAAAAAUA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\StatsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.LocaleDropdown" Collapsed="true">
+    <Position X="52.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAACCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Localization\LocaleDropdown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.UnityEventTMPFont" Collapsed="true">
+    <Position X="61.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Localization\LocalizeFontEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.LocalizeFontEvent" Collapsed="true">
+    <Position X="54.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Localization\LocalizeFontEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CharacterCard" Collapsed="true">
+    <Position X="63" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACFAACAIKBAAAAAACAAQIAAAQAACiAAIAAijAACACAI=</HashCode>
+      <FileName>Assets\Scripts\Main Menu\CharacterCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CharacterSelector" Collapsed="true">
+    <Position X="64.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQCABAAAAgBAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Main Menu\CharacterSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CrossSceneData" Collapsed="true">
+    <Position X="64.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Main Menu\CrossSceneData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.MainMenu" Collapsed="true">
+    <Position X="59.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Main Menu\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.PageManager" Collapsed="true">
+    <Position X="52.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAIAAAQAEA=</HashCode>
+      <FileName>Assets\Scripts\Main Menu\PageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.StartingAbilityContainer" Collapsed="true">
+    <Position X="56" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Main Menu\StartingAbilityContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.BoomerangMonster" Collapsed="true">
+    <Position X="10" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAASgQAIAAAwAAAAAAAAABAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\Monsters\BoomerangMonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.BossAbility" Collapsed="true">
+    <Position X="53.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAhAAAAAAAAAAAAAAIAAABACIAIAABA=</HashCode>
+      <FileName>Assets\Scripts\Monsters\Boss Abilities\BossAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.BulletHellBossAbility" Collapsed="true">
+    <Position X="48.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAgJggAhgACAAAAAQAAIgAAAAAAACAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Monsters\Boss Abilities\BulletHellBossAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ChargeBossAbility" Collapsed="true">
+    <Position X="51" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIBKggAAEhAEAAAAAAAAAAAAIAAIAECAABIAAA=</HashCode>
+      <FileName>Assets\Scripts\Monsters\Boss Abilities\ChargeBossAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.GrenadeBossAbility" Collapsed="true">
+    <Position X="53.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAgIggAlgAAAEAAAAAAIAAAAAAAACAABAAgA=</HashCode>
+      <FileName>Assets\Scripts\Monsters\Boss Abilities\GrenadeBossAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ShotgunBossAbility" Collapsed="true">
+    <Position X="55.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIIAAgIggAhgACAAAAAQAAIgAAACAAACAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Monsters\Boss Abilities\ShotgunBossAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.WalkBossAbility" Collapsed="true">
+    <Position X="57.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAgAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Monsters\Boss Abilities\WalkBossAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.BossMonster" Collapsed="true">
+    <Position X="5.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCQAAASIAAAAAAAACAAAAAAAAAAAAAAAAgAAQBCEM=</HashCode>
+      <FileName>Assets\Scripts\Monsters\BossMonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.DamageText" Collapsed="true">
+    <Position X="52.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIABACAAAAAEQ=</HashCode>
+      <FileName>Assets\Scripts\Monsters\DamageText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.EntityManager" Collapsed="true">
+    <Position X="57.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQLR4hAFAeABAiAHCglQUChBgAEgcwKRgED5iFISAQ=</HashCode>
+      <FileName>Assets\Scripts\Monsters\EntityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.MeleeMonster" Collapsed="true">
+    <Position X="7.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAASgAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Monsters\MeleeMonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Monster" Collapsed="true">
+    <Position X="7.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAYCACAAagIQgCAsAADAAAAA5ECEAIAAABgCgBIQAEg=</HashCode>
+      <FileName>Assets\Scripts\Monsters\Monster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Vampire.MonsterSpawnTable" Collapsed="true">
+    <Position X="64.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAEAAAAAAgAAEAIAAAAAAAICgAAA=</HashCode>
+      <FileName>Assets\Scripts\Monsters\MonsterSpawnTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.RangedMonster" Collapsed="true">
+    <Position X="12.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAAAAASgAAAAAggAAAAAAAAAAAAAAEAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Monsters\RangedMonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ThrowingMonster" Collapsed="true">
+    <Position X="3.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAASgAAAAEAgAAAAAAAAAAAAAAEAAAAQgBAAAA=</HashCode>
+      <FileName>Assets\Scripts\Monsters\ThrowingMonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ExplosiveProjectile" Collapsed="true">
+    <Position X="48.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQAAAAAAAAAAABAAYAgAGAAAAAAAAAAgAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Projectiles\ExplosiveProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.GravityProjectile" Collapsed="true">
+    <Position X="50.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAIAAAEAAAAAAAAAAAAAAgAAAAABAEQAAA=</HashCode>
+      <FileName>Assets\Scripts\Projectiles\GravityProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Projectile" Collapsed="true">
+    <Position X="49.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQBASIAioAAgBAAAAQAAAEIBAYACABJCgABQAEg=</HashCode>
+      <FileName>Assets\Scripts\Projectiles\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CharacterBlueprint" Collapsed="true">
+    <Position X="59.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEgAAIAAEAAVAAQAAABAARAAACA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\CharacterBlueprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ChestBlueprint" Collapsed="true">
+    <Position X="56" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAAAAEAAQ=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\ChestBlueprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CoinBlueprint" Collapsed="true">
+    <Position X="57.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\CoinBlueprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.BombCollectable" Collapsed="true">
+    <Position X="34.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\CollectableTypes\BombCollectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CoinCollectable" Collapsed="true">
+    <Position X="37" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\CollectableTypes\CoinCollectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.CollectableType" Collapsed="true">
+    <Position X="38" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\CollectableTypes\CollectableType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ExpGemCollectable" Collapsed="true">
+    <Position X="39.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\CollectableTypes\ExpGemCollectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.HealthCollectable" Collapsed="true">
+    <Position X="41.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\CollectableTypes\HealthCollectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.MagnetCollectable" Collapsed="true">
+    <Position X="43.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\CollectableTypes\MagnetCollectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.RedPotionCollectable" Collapsed="true">
+    <Position X="32.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\CollectableTypes\RedPotionCollectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ExpGemBlueprint" Collapsed="true">
+    <Position X="64.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\ExpGemBlueprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.LevelBlueprint" Collapsed="true">
+    <Position X="63" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAASIAAABAAAAAAAAAAAIQAABAAABAAAgBARAE=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\LevelBlueprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.BoomerangMonsterBlueprint" Collapsed="true">
+    <Position X="15.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAIAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAACGAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\Monsters\BoomerangMonsterBlueprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.BossMonsterBlueprint" Collapsed="true">
+    <Position X="18" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQCAAAAAAAAABAAAAAAAQAAAAAABAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\Monsters\BossMonsterBlueprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.MeleeMonsterBlueprint" Collapsed="true">
+    <Position X="20.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\Monsters\MeleeMonsterBlueprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.MonsterBlueprint" Collapsed="true">
+    <Position X="20.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAgAAIAAEAAEAAwAgABgARAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\Monsters\MonsterBlueprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.RangedMonsterBlueprint" Collapsed="true">
+    <Position X="22.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAABAAAEBAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\Monsters\RangedMonsterBlueprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.ThrowingMonsterBlueprint" Collapsed="true">
+    <Position X="24.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAIAAAAAAAAAEAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScriptableObjects\Monsters\ThrowingMonsterBlueprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.GravityThrowable" Collapsed="true">
+    <Position X="12.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAABIAAAEAAAAAAgAAAAAAAgAAAAAFBAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Throwables\GravityThrowable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.GrenadeThrowable" Collapsed="true">
+    <Position X="15" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAkAACAgAAAAAAgAAAAAAAAEAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Throwables\GrenadeThrowable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.MolotovFire" Collapsed="true">
+    <Position X="63" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Throwables\MolotovFire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.MolotovThrowable" Collapsed="true">
+    <Position X="17.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAKQAQCAAAAAAAAAAAgABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Throwables\MolotovThrowable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.Throwable" Collapsed="true">
+    <Position X="15" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQKAQBICQAgiAOBAAAAAQgAAAIIAIAAARBiAAAEAEg=</HashCode>
+      <FileName>Assets\Scripts\Throwables\Throwable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.AbilitySelectionDialog" Collapsed="true">
+    <Position X="20.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAABAAAAIJAAgCAgBAAgAAAAAAIAAABACAACBEAA=</HashCode>
+      <FileName>Assets\Scripts\UI\AbilitySelectionDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.DialogBox" Collapsed="true">
+    <Position X="21.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAIQCAIAAAAAAAgAAAAAAgAAAAAAAAEACAAAI=</HashCode>
+      <FileName>Assets\Scripts\UI\DialogBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.GameOverDialog" Collapsed="true">
+    <Position X="22.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAEACAAgAAAAAAAAAgAAAJAACAIEA=</HashCode>
+      <FileName>Assets\Scripts\UI\GameOverDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.PauseMenu" Collapsed="true">
+    <Position X="54.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEBAAAAIAAAABAAAAAAAAAAAAAAABAAgAAAAIQA=</HashCode>
+      <FileName>Assets\Scripts\UI\PauseMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsConstants" Collapsed="true">
+    <Position X="56" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\PhysicsConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScaleToScreen" Collapsed="true">
+    <Position X="64.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\ScaleToScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpatialHashGrid" Collapsed="true">
+    <Position X="52.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEQAAAgAAAAgAAAAACAAAAAAEABCACARAgAI4=</HashCode>
+      <FileName>Assets\Scripts\Spatial\SpatialHashGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiscTesting" Collapsed="true">
+    <Position X="61.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAACAAAAAAAAAEAAAAAAAAgAAAABAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Testing\MiscTesting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire.LevelManager" Collapsed="true">
+    <Position X="64.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAgACAACCABAgAGAAAAEQAAgAAAIACAFACgAEAQAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\LevelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Vampire.AnimationSequence" Collapsed="true">
+    <Position X="52.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\SpriteAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Vampire.IUpgradeableValue" Collapsed="true">
+    <Position X="54.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAwAACAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utilities\UpgradeableValues.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISpatialHashGridClient" Collapsed="true">
+    <Position X="52.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAAAACAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Spatial\SpatialHashGrid.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Vampire.CoinType" Collapsed="true">
+    <Position X="52.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAABgAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Collectables\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Vampire.GemType" Collapsed="true">
+    <Position X="54.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAEAAAAAABAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Collectables\ExpGem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

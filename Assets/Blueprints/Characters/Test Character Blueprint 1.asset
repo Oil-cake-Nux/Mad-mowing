@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cebba9219e8740668e9101e947a97e4, type: 3}
+  m_Name: Test Character Blueprint 1
+  m_EditorClassIdentifier: 
+  name: Test
+  owned: 1
+  cost: 999
+  hp: 1000
+  recovery: 0
+  armor: 0
+  movespeed: 1
+  luck: 1
+  acceleration: 50
+  walkSpriteSequence:
+  - {fileID: -1711853846, guid: 3b441ea71fa8640df816f3eba68f8845, type: 3}
+  - {fileID: 917104541, guid: 3b441ea71fa8640df816f3eba68f8845, type: 3}
+  - {fileID: -1159827789, guid: 3b441ea71fa8640df816f3eba68f8845, type: 3}
+  - {fileID: -1498753039, guid: 3b441ea71fa8640df816f3eba68f8845, type: 3}
+  walkFrameTime: 0.1
+  startingAbilities:
+  - {fileID: 7378740072262091319, guid: 035b777c757ec454ba0b4711eed2ef82, type: 3}
+  - {fileID: 7378740072262091319, guid: 68faf193e4e8d451aa2229ed6155917b, type: 3}
+  - {fileID: 7378740072262091319, guid: 54bc67e1508814be78d516b6fe8d264e, type: 3}
+  - {fileID: 7378740072262091319, guid: 48e31f1d1283b43748c060fbc24e3df8, type: 3}
