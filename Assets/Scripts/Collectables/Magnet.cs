@@ -1,12 +1,12 @@
-namespace Vampire
-{
-    //¥≈Ã˙
-    public class Magnet : Collectable
-    {   
-        protected override void OnCollected()
-        {
-            entityManager.CollectAllCoinsAndGems();
-            Destroy(gameObject);
-        }
-    }
-}
+Ôªønamespace Vampire
+{
+    //Á£ÅÈìÅ
+    public class Magnet : Collectable
+    {   
+        protected override void OnCollected()
+        {
+            entityManager.CollectAllCoinsAndGems();
+            Destroy(gameObject);
+        }
+    }
+}

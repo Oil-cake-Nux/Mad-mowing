@@ -69,7 +69,7 @@ namespace Vampire
         private float timeSinceLastChestSpawned;
 
         //初始化四个道具
-        [SerializeField]public Collectable[] collectables;
+        [SerializeField] public Collectable[] collectables;
 
         // 屏幕在世界坐标中的尺寸：用于计算“屏幕外刷怪距离/是否在屏幕内”等
         private float screenWidthWorldSpace, screenHeightWorldSpace, screenDiagonalWorldSpace;
@@ -333,7 +333,7 @@ namespace Vampire
             {
                 spawnPosition = (Vector2)playerCharacter.transform.position
                               + sideDirections[sideIndex] * (screenWidthWorldSpace / 2 + monsterSpawnBufferDistance)    //与playerCharacterx轴上的距离
-                              //与playerCharactery轴上的距离
+                                                                                                                        //与playerCharactery轴上的距离
                               + Vector2.up * Random.Range(-screenHeightWorldSpace / 2 - monsterSpawnBufferDistance, screenHeightWorldSpace / 2 + monsterSpawnBufferDistance);
             }
             // 上/下边：y 超出屏幕范围，x 在屏幕宽度范围内随机
@@ -595,7 +595,7 @@ namespace Vampire
                 //假设projectilePools列表中已经有三个元素（及三种projectile对象池），projectilePools.Count=3
                 //则存入projectileIndexByPrefab字典的值就为3，正好对应projectilePools数组中该种projectilePrefab对应的Index。
                 //此时projectilePools.Count=4了，所以返回projectilePools.Count - 1
-                projectileIndexByPrefab[projectilePrefab] = projectilePools.Count; 
+                projectileIndexByPrefab[projectilePrefab] = projectilePools.Count;
                 ProjectilePool projectilePool = projectilePoolParent.AddComponent<ProjectilePool>();
                 projectilePool.Init(this, playerCharacter, projectilePrefab);
                 projectilePools.Add(projectilePool);

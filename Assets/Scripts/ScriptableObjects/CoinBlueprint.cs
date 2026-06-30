@@ -1,12 +1,12 @@
-using UnityEngine;
-
-namespace Vampire
-{
-    [CreateAssetMenu(fileName = "Coin", menuName = "Blueprints/Coin", order = 1)]
-
-    //金币/经验宝石外观映射：CoinBlueprint、ExpGemBlueprint
-    public class CoinBlueprint : ScriptableObject
-    {
-        public EnumDataContainer<CoinType, Sprite> coinSprites;
-    }
-}
+锘縰sing UnityEngine;
+
+namespace Vampire
+{
+    [CreateAssetMenu(fileName = "Coin", menuName = "Blueprints/Coin", order = 1)]
+
+    //閲戝竵/缁忛獙瀹濈煶澶栬鏄犲皠锛欳oinBlueprint銆丒xpGemBlueprint
+    public class CoinBlueprint : ScriptableObject
+    {
+        public EnumDataContainer<CoinType, Sprite> coinSprites;
+    }
+}

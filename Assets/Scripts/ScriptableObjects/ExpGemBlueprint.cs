@@ -1,12 +1,12 @@
-using UnityEngine;
-
-namespace Vampire
-{
-    [CreateAssetMenu(fileName = "Exp Gem", menuName = "Blueprints/Gem", order = 1)]
-
-    //经验宝石外观映射
-    public class ExpGemBlueprint : ScriptableObject
-    {
-        public EnumDataContainer<GemType, Sprite, Color> gemSpritesAndColors;
-    }
-}
+锘縰sing UnityEngine;
+
+namespace Vampire
+{
+    [CreateAssetMenu(fileName = "Exp Gem", menuName = "Blueprints/Gem", order = 1)]
+
+    //缁忛獙瀹濈煶澶栬鏄犲皠
+    public class ExpGemBlueprint : ScriptableObject
+    {
+        public EnumDataContainer<GemType, Sprite, Color> gemSpritesAndColors;
+    }
+}

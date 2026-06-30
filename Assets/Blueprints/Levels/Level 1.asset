@@ -61,11 +61,11 @@ MonoBehaviour:
     - t: 0
       spawnRate: 5
     - t: 0.1
-      spawnRate: 8
+      spawnRate: 6
     - t: 0.43
-      spawnRate: 10
+      spawnRate: 7
     - t: 0.48
-      spawnRate: 1
+      spawnRate: 8
     - t: 0.55
       spawnRate: 1.5
     - t: 0.65
@@ -118,55 +118,55 @@ MonoBehaviour:
     - t: 0.48
       spawnChances:
       - 0.8
-      - 0.1
-      - 0.1
+      - 0.2
+      - 0
       - 0
       - 0
       - 0
     - t: 0.55
       spawnChances:
-      - 1
-      - 0
+      - 0.7
+      - 0.3
       - 0
       - 0
       - 0
       - 0
     - t: 0.6
       spawnChances:
-      - 0.3
-      - 0.3
-      - 0.3
-      - 0.1
+      - 0.6
+      - 0.4
+      - 0
+      - 0
       - 0
       - 0
     - t: 0.7
       spawnChances:
-      - 0.3
-      - 0.3
+      - 0.5
+      - 5
       - 0.3
       - 0
       - 0.1
       - 0
     - t: 0.8
       spawnChances:
-      - 0.3
-      - 0.3
+      - 0.4
+      - 0.6
       - 0.3
       - 0
       - 0
       - 0.1
     - t: 0.9
       spawnChances:
-      - 0.25
-      - 0.25
+      - 0.3
+      - 0.7
       - 0.25
       - 0.05
       - 0.1
       - 0.1
     - t: 1
       spawnChances:
-      - 0.3
-      - 0.3
+      - 0.2
+      - 0.8
       - 0.4
       - 0
       - 0
