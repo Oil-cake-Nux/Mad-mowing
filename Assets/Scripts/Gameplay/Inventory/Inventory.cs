@@ -75,17 +75,38 @@ namespace Vampire
         /// </summary>
         /// <param name="item">要添加的物品</param>
         /// <returns>添加成功的库存槽，失败则返回null</returns>
-        public InventorySlot AddItem(Collectable item)
-        {
-            // 检查是否存在对应库存槽且未满
-            if (inventorySlotByType.ContainsKey(item.CollectableType) && !inventorySlotByType[item.CollectableType].IsFull())
-            {
+        public InventorySlot AddItem(Collectable item)
+        {
+            // 检查是否存在对应库存槽且未满
+            if (inventorySlotByType.ContainsKey(item.CollectableType) && !inventorySlotByType[item.CollectableType].IsFull())
+            {
                 // 向对应库存槽添加物品
                 inventorySlotByType[item.CollectableType].AddItem(item);
                 return inventorySlotByType[item.CollectableType];
             }
-            // 无法添加则返回null
-            return null;
-        }
-    }
+            // 无法添加则返回null
+            return null;
+        }
+
+        public void AddInitialItems(Collectable[] itemPrefabs, EntityManager entityManager, Character playerCharacter, int countPerItem)
+        {
+            foreach (Collectable itemPrefab in itemPrefabs)
+            {
+                if (itemPrefab == null) continue;
+
+                for (int i = 0; i < countPerItem; i++)
+                {
+                    Collectable item = Instantiate(itemPrefab);
+                    item.Init(entityManager, playerCharacter);
+
+                    Collider2D itemCollider = item.GetComponent<Collider2D>();
+                    if (itemCollider != null) itemCollider.enabled = false;
+
+                    item.gameObject.SetActive(false);
+                    if (AddItem(item) == null)
+                        Destroy(item.gameObject);
+                }
+            }
+        }
+    }
 }

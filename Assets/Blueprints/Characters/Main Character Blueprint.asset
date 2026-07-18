@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Blue
   owned: 1
   cost: 999
-  hp: 100
+  hp: 1
   recovery: 0
   armor: 0
   movespeed: 1.15

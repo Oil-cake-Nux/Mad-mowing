@@ -63,9 +63,10 @@ namespace Vampire
             // 8) 初始化无限背景（贴图 + 跟随玩家）
             infiniteBackground.Init(this.levelBlueprint.backgroundTexture, playerCharacter.transform);
 
-            // 9) 初始化背包系统（建立 CollectableType→Slot 映射等）
-            inventory.Init();
-        }
+            // 9) 初始化背包系统（建立 CollectableType→Slot 映射等）
+            inventory.Init();
+            inventory.AddInitialItems(entityManager.collectables, entityManager, playerCharacter, 2);
+        }
 
         /// <summary>
         /// Unity 生命周期：场景开始时调用

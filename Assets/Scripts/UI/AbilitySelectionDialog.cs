@@ -33,7 +33,7 @@ namespace Vampire
             menuOpen = true;
             Time.timeScale = 0;
             pauseMenu.TimeIsFrozen = true;
-            particles.SetActive(true);
+            particles.SetActive(false);
 
             // Select abilities/upgrades to display
             displayedAbilities = abilityManager.SelectAbilities();

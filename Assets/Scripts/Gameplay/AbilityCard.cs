@@ -24,7 +24,7 @@ namespace Vampire
         {
             LocalizationSettings.SelectedLocaleChanged += HandleLocaleChanged;
         }
-        
+
         private void OnDisable()
         {
             LocalizationSettings.SelectedLocaleChanged -= HandleLocaleChanged;
@@ -38,22 +38,22 @@ namespace Vampire
         private void SetText()
         {
             if (!initialized) return;
-            
+
             nameText.text = ability.Name;
             descriptionText.text = ability.Description;
-            
-            buttonText.text = !ability.Owned ? selectLocalization.GetLocalizedString() : upgradeLocalization.GetLocalizedString() + " (" + ability.Level + " -> " + (ability.Level+1) + ")";
+
+            buttonText.text = !ability.Owned ? selectLocalization.GetLocalizedString() : upgradeLocalization.GetLocalizedString() + " (" + ability.Level + " -> " + (ability.Level + 1) + ")";
         }
 
         public void Init(AbilitySelectionDialog levelUpMenu, Ability ability, float waitToAppear)
         {
             abilityImage.sprite = ability.Image;
             float yHeight = abilityImageRect.rect.height;
-            float xWidth = ability.Image.textureRect.width / (float) ability.Image.textureRect.height * yHeight;
+            float xWidth = ability.Image.textureRect.width / (float)ability.Image.textureRect.height * yHeight;
             if (xWidth > abilityImageRect.rect.width)
             {
-                    xWidth = abilityImageRect.rect.width;
-                    yHeight = ability.Image.textureRect.height / (float) ability.Image.textureRect.width * xWidth;
+                xWidth = abilityImageRect.rect.width;
+                yHeight = ability.Image.textureRect.height / (float)ability.Image.textureRect.width * xWidth;
             }
             ((RectTransform)abilityImage.transform).sizeDelta = new Vector2(xWidth, yHeight);
             this.levelUpMenu = levelUpMenu;

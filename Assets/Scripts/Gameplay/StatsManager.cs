@@ -29,14 +29,20 @@ namespace Vampire
         /// 公共只读属性：供外部获取玩家受到的总伤害值（无法外部修改，仅内部更新）
         /// </summary>
         public float DamageTaken { get => damageDealt; }
-        /// <summary>
-        /// 公共只读属性：供外部获取玩家获得的总金币数量（无法外部修改，仅内部更新）
-        /// </summary>
-        public int CoinsGained { get => coinsGained; }
-
-        /// <summary>
-        /// 增加击杀怪物数量（每次调用击杀数+1），并同步更新对应UI显示
-        /// </summary>
+        /// <summary>
+        /// 公共只读属性：供外部获取玩家获得的总金币数量（无法外部修改，仅内部更新）
+        /// </summary>
+        public int CoinsGained { get => coinsGained; }
+
+        private void Awake()
+        {
+            if (monstersKilledText != null) monstersKilledText.enabled = false;
+            if (coinsGainedText != null) coinsGainedText.enabled = false;
+        }
+
+        /// <summary>
+        /// 增加击杀怪物数量（每次调用击杀数+1），并同步更新对应UI显示
+        /// </summary>
         public void IncrementMonstersKilled()
         {
             monstersKilled++; // 击杀数自增1

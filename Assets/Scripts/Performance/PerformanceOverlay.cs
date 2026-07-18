@@ -37,6 +37,8 @@ namespace Vampire
         {
             if (text == null) text = GetComponent<TextMeshProUGUI>();
             smoothedDeltaTime = Time.unscaledDeltaTime;
+            if (text != null) text.enabled = false;
+            enabled = false;
         }
 
         private void Update()

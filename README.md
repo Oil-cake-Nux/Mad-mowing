@@ -10,6 +10,8 @@ Unity版本：2022.3.61f1c1
 
 打开场景：”Main Menu“，Play按键即可。
 
+![疯狂割草演示gif](assets/疯狂割草演示gif.gif)
+
 ## 项目结构
 
 `Scripts/Managers`: `LevelManager`, `EntityManager`, `AbilityManager`, `StatsManager`
@@ -408,10 +410,6 @@ void Update()
 
   > 
 
-# 十一、层级管理
-
-Z轴定位器ZPositioner、图层LayerMask。
-
 # 问题
 
 ## 1、如何将全部小怪统计起来？
@@ -524,8 +522,6 @@ public void Init(LevelBlueprint levelBlueprint)
     inventory.Init();
 }
 ```
-
-![image-20251225220202318](D:\Unity Projects\休闲游戏实例\疯狂割草\Image\image-20251225220202318.png)
 
 
 
