@@ -10,7 +10,7 @@ Unity版本：2022.3.61f1c1
 
 打开场景：”Main Menu“，Play按键即可。
 
-![疯狂割草演示gif](assets/疯狂割草演示gif.gif)
+![疯狂割草演示gif](Docs/疯狂割草演示gif.gif)
 
 ## 项目结构
 
